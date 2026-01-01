@@ -130,7 +130,7 @@
       "emailLabel": "Email Address",
       "emailPlaceholder": "john@example.com",
       "message": "Your Message",
-      "messagePlaceholder": "Tell us about your goals...",
+      "messagePlaceholder": "Tell me about your goals...",
       "submit": "Send Message",
       "success": "Thanks for reaching out! We'll be in touch soon."
     }
