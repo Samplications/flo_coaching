@@ -1,0 +1,150 @@
+{
+  "nav": {
+    "about": "About",
+    "services": "Journey",
+    "testimonials": "Results",
+    "contact": "Contact",
+    "startJourney": "Start Your Journey"
+  },
+  "hero": {
+    "tagline": "Personal Training & Coaching",
+    "headline1": "TRANSFORM YOUR",
+    "headline2": "IDENTITY",
+    "headline3": "NOT JUST YOUR BODY",
+    "slogan": "\"You go with the <1>FLO</1>, you get results for sho\"",
+    "description": "FLO Coaching goes beyond workouts. We shape who you become—because lasting results come from lasting change in how you see yourself.",
+    "cta": "Start Your Transformation",
+    "learnMore": "Learn More"
+  },
+  "about": {
+    "tagline": "The FLO Philosophy",
+    "headline1": "MORE THAN JUST",
+    "headline2": "A WORKOUT",
+    "description": "At FLO Coaching, we believe lasting fitness results come from reshaping your identity. When you change who you are, your habits naturally follow.",
+    "values": {
+      "identityFirst": {
+        "title": "Identity First",
+        "description": "We focus on who you're becoming, not just what you're achieving. Real transformation starts from within."
+      },
+      "holistic": {
+        "title": "Holistic Approach",
+        "description": "Mind, body, and habits aligned. We build sustainable lifestyle changes that stick for life."
+      },
+      "proven": {
+        "title": "Proven Methods",
+        "description": "Science-backed training combined with mindset coaching that delivers consistent, measurable results."
+      },
+      "personal": {
+        "title": "Personal Connection",
+        "description": "Your journey is unique. Get personalized attention and accountability every step of the way."
+      }
+    }
+  },
+  "services": {
+    "tagline": "Coaching Programs",
+    "headline1": "CHOOSE YOUR",
+    "headline2": "PATH",
+    "description": "Every journey is different. Find the program that matches your goals, schedule, and commitment level.",
+    "mostPopular": "Most Popular",
+    "perMonth": "/month",
+    "getStarted": "Get Started",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "subtitle": "Perfect for beginners",
+        "features": [
+          "Personalized workout plans",
+          "Weekly check-ins",
+          "Nutrition guidelines",
+          "App access",
+          "Email support"
+        ]
+      },
+      "transform": {
+        "name": "Transform",
+        "subtitle": "Most popular choice",
+        "features": [
+          "Everything in Starter",
+          "1-on-1 coaching sessions",
+          "Identity & mindset work",
+          "Custom meal planning",
+          "Priority support",
+          "Progress tracking"
+        ]
+      },
+      "elite": {
+        "name": "Elite",
+        "subtitle": "Maximum results",
+        "features": [
+          "Everything in Transform",
+          "Daily accountability",
+          "Unlimited coaching calls",
+          "Lifestyle optimization",
+          "VIP community access",
+          "Quarterly in-person sessions"
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "tagline": "Success Stories",
+    "headline1": "REAL PEOPLE",
+    "headline2": "REAL RESULTS",
+    "description": "Don't just take our word for it. Hear from people who transformed their lives with FLO Coaching.",
+    "reviews": [
+      {
+        "name": "Yves D.",
+        "role": "Lost 9kg in 3 months",
+        "content": "FLO didn't just help me lose weight—it changed how I see myself. The identity work was the game-changer I didn't know I needed."
+      },
+      {
+        "name": "Max T.",
+        "role": "Gained confidence & strength",
+        "content": "For the first time in my life, I feel like an athlete. FLO's approach made fitness feel like who I am, not just what I do."
+      },
+      {
+        "name": "Jelle W.",
+        "role": "Transformed lifestyle",
+        "content": "The personal attention and mindset coaching set FLO apart. I've tried many programs, but this is the first time results actually stuck."
+      }
+    ],
+    "stats": {
+      "clients": "Clients Transformed",
+      "success": "Success Rate",
+      "experience": "Years Experience",
+      "rating": "Average Rating"
+    }
+  },
+  "contact": {
+    "tagline": "Ready to Start?",
+    "headline1": "LET'S GO",
+    "headline2": "WITH THE FLO",
+    "description": "Take the first step toward becoming who you're meant to be. Reach out for a free consultation and discover how FLO Coaching can transform your life.",
+    "email": "Email",
+    "phone": "Phone",
+    "insta": "Instagram",
+    "form": {
+      "title": "Send a Message",
+      "name": "Your Name",
+      "namePlaceholder": "John Doe",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "john@example.com",
+      "message": "Your Message",
+      "messagePlaceholder": "Tell us about your goals...",
+      "submit": "Send Message",
+      "success": "Thanks for reaching out! We'll be in touch soon."
+    }
+  },
+  "instagram":{
+    "tagline": "Setting the example",
+    "headline1": "FOLLOW THE",
+    "headline2": "JOURNEY"
+  },
+  "footer": {
+    "tagline": "Transform your identity. Transform your life.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© {{year}} FLO Coaching. All rights reserved."
+  }
+
+}

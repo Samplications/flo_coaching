@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 15 10% 8%;
+    --foreground: 40 30% 95%;
+
+    --card: 15 10% 12%;
+    --card-foreground: 40 30% 95%;
+
+    --popover: 15 10% 12%;
+    --popover-foreground: 40 30% 95%;
+
+    --primary: 5 100% 68%;
+    --primary-foreground: 15 10% 8%;
+
+    --secondary: 15 10% 18%;
+    --secondary-foreground: 40 30% 95%;
+
+    --muted: 15 10% 20%;
+    --muted-foreground: 30 10% 60%;
+
+    --accent: 30 80% 55%;
+    --accent-foreground: 15 10% 8%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 15 10% 20%;
+    --input: 15 10% 20%;
+    --ring: 5 100% 68%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --coral: 5 100% 68%;
+    --coral-glow: 5 100% 75%;
+    --cream: 40 30% 95%;
+    --charcoal: 15 10% 8%;
+    --charcoal-light: 15 10% 14%;
+    
+    --gradient-hero: linear-gradient(135deg, hsl(var(--charcoal)) 0%, hsl(15, 10%, 12%) 100%);
+    --gradient-coral: linear-gradient(135deg, hsl(var(--coral)) 0%, hsl(var(--accent)) 100%);
+    --shadow-glow: 0 0 60px -15px hsl(var(--coral) / 0.4);
+    --shadow-card: 0 25px 50px -12px hsl(0 0% 0% / 0.5);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 15 10% 8%;
+    --foreground: 40 30% 95%;
+    --card: 15 10% 12%;
+    --card-foreground: 40 30% 95%;
+    --popover: 15 10% 12%;
+    --popover-foreground: 40 30% 95%;
+    --primary: 5 100% 68%;
+    --primary-foreground: 15 10% 8%;
+    --secondary: 15 10% 18%;
+    --secondary-foreground: 40 30% 95%;
+    --muted: 15 10% 20%;
+    --muted-foreground: 30 10% 60%;
+    --accent: 30 80% 55%;
+    --accent-foreground: 15 10% 8%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 15 10% 20%;
+    --input: 15 10% 20%;
+    --ring: 5 100% 68%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 0.02em;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Bebas Neue', sans-serif;
+  }
+  
+  .font-body {
+    font-family: 'Inter', sans-serif;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-coral);
+  }
+
+  .bg-hero-gradient {
+    background: var(--gradient-hero);
+  }
+
+  .shadow-glow {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .shadow-card {
+    box-shadow: var(--shadow-card);
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-6 py-20 md:px-12 md:py-28 lg:px-24 lg:py-32;
+  }
+
+  .container-narrow {
+    @apply max-w-6xl mx-auto;
+  }
+}
+
+/* Animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px hsl(var(--coral) / 0.3); }
+  50% { box-shadow: 0 0 40px hsl(var(--coral) / 0.5); }
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.animate-fade-up {
+  animation: fade-up 0.8s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+}
+
+.animation-delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animation-delay-400 {
+  animation-delay: 0.4s;
+}
+
+.animation-delay-600 {
+  animation-delay: 0.6s;
+}

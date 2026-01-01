@@ -1,0 +1,149 @@
+{
+  "nav": {
+    "about": "Over Ons",
+    "services": "Journey",
+    "testimonials": "Resultaten",
+    "contact": "Contact",
+    "startJourney": "Begin Je Reis"
+  },
+  "hero": {
+    "tagline": "Personal Training & Coaching",
+    "headline1": "TRANSFORMEER JE",
+    "headline2": "IDENTITEIT",
+    "headline3": "NIET ALLEEN JE LICHAAM",
+    "slogan": "\"Je gaat met de <1>FLO</1>, dan krijg je resultaat sowieso\"",
+    "description": "FLO Coaching gaat verder dan workouts. Wij vormen wie je wordt—want blijvende resultaten komen voort uit een blijvende verandering in hoe je jezelf ziet.",
+    "cta": "Start Je Transformatie",
+    "learnMore": "Meer Weten"
+  },
+  "about": {
+    "tagline": "De FLO Filosofie",
+    "headline1": "MEER DAN ALLEEN",
+    "headline2": "EEN WORKOUT",
+    "description": "Bij FLO Coaching geloven we dat blijvende fitnessresultaten voortkomen uit het hervormen van je identiteit. Als je verandert wie je bent, volgen je gewoontes vanzelf.",
+    "values": {
+      "identityFirst": {
+        "title": "Identiteit Eerst",
+        "description": "We focussen op wie je wordt, niet alleen op wat je bereikt. Echte transformatie begint van binnenuit."
+      },
+      "holistic": {
+        "title": "Holistische Aanpak",
+        "description": "Geest, lichaam en gewoontes in balans. We bouwen duurzame levensstijlveranderingen die blijven."
+      },
+      "proven": {
+        "title": "Bewezen Methodes",
+        "description": "Wetenschappelijk onderbouwde training gecombineerd met mindset coaching die consistente, meetbare resultaten levert."
+      },
+      "personal": {
+        "title": "Persoonlijke Connectie",
+        "description": "Jouw reis is uniek. Krijg persoonlijke aandacht en begeleiding bij elke stap."
+      }
+    }
+  },
+  "services": {
+    "tagline": "Coaching Programma's",
+    "headline1": "KIES JOUW",
+    "headline2": "PAD",
+    "description": "Elke reis is anders. Vind het programma dat past bij jouw doelen, schema en commitment niveau.",
+    "mostPopular": "Meest Gekozen",
+    "perMonth": "/maand",
+    "getStarted": "Aan de Slag",
+    "plans": {
+      "starter": {
+        "name": "Starter",
+        "subtitle": "Perfect voor beginners",
+        "features": [
+          "Gepersonaliseerde trainingsschema's",
+          "Wekelijkse check-ins",
+          "Voedingsrichtlijnen",
+          "App toegang",
+          "E-mail ondersteuning"
+        ]
+      },
+      "transform": {
+        "name": "Transform",
+        "subtitle": "Meest gekozen",
+        "features": [
+          "Alles van Starter",
+          "1-op-1 coaching sessies",
+          "Identiteit & mindset werk",
+          "Op maat gemaakt voedingsplan",
+          "Prioriteit ondersteuning",
+          "Voortgang tracking"
+        ]
+      },
+      "elite": {
+        "name": "Elite",
+        "subtitle": "Maximale resultaten",
+        "features": [
+          "Alles van Transform",
+          "Dagelijkse begeleiding",
+          "Onbeperkte coaching gesprekken",
+          "Levensstijl optimalisatie",
+          "VIP community toegang",
+          "Kwartaal persoonlijke sessies"
+        ]
+      }
+    }
+  },
+  "testimonials": {
+    "tagline": "Succesverhalen",
+    "headline1": "ECHTE MENSEN",
+    "headline2": "ECHTE RESULTATEN",
+    "description": "Geloof ons niet zomaar. Hoor van mensen die hun leven hebben getransformeerd met FLO Coaching.",
+    "reviews": [
+      {
+        "name": "Yves D.",
+        "role": "9kg afgevallen in 3 maanden",
+        "content": "FLO hielp me niet alleen afvallen—het veranderde hoe ik mezelf zie. Het identiteitswerk was de game-changer die ik nodig had."
+      },
+      {
+        "name": "Max T.",
+        "role": "Zelfvertrouwen & kracht gewonnen",
+        "content": "Voor het eerst in mijn leven voel ik me een atleet. FLO's aanpak maakte fitness wie ik ben, niet alleen wat ik doe."
+      },
+      {
+        "name": "Jelle W.",
+        "role": "Levensstijl getransformeerd",
+        "content": "De persoonlijke aandacht en mindset coaching onderscheidt FLO. Ik heb veel programma's geprobeerd, maar dit is de eerste keer dat resultaten echt blijven."
+      }
+    ],
+    "stats": {
+      "clients": "Klanten Getransformeerd",
+      "success": "Succespercentage",
+      "experience": "Jaar Ervaring",
+      "rating": "Gemiddelde Beoordeling"
+    }
+  },
+  "contact": {
+    "tagline": "Klaar om te Beginnen?",
+    "headline1": "GA MEE",
+    "headline2": "MET DE FLO",
+    "description": "Zet de eerste stap naar wie je bedoeld bent te zijn. Neem contact op voor een gratis consult en ontdek hoe FLO Coaching jouw leven kan transformeren.",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "insta": "Instagram",
+    "form": {
+      "title": "Stuur een Bericht",
+      "name": "Je Naam",
+      "namePlaceholder": "Jan Jansen",
+      "emailLabel": "E-mailadres",
+      "emailPlaceholder": "jan@voorbeeld.nl",
+      "message": "Je Bericht",
+      "messagePlaceholder": "Vertel ons over je doelen...",
+      "submit": "Verstuur Bericht",
+      "success": "Bedankt voor je bericht! We nemen snel contact op."
+    }
+  },
+    "instagram":{
+    "tagline": "Het voorbeeld zetten",
+    "headline1": "FOLLOW THE",
+    "headline2": "JOURNEY"
+  },
+  "footer": {
+    "tagline": "Transformeer je identiteit. Transformeer je leven.",
+    "privacy": "Privacybeleid",
+    "terms": "Algemene Voorwaarden",
+    "copyright": "© {{year}} FLO Coaching. Alle rechten voorbehouden."
+  }
+}
